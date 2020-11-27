@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Gens</title>
+    <!-- CSS only -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Home_Page.css"/>
+</head>
+<body>
+    <div class="container-fluid bg-dark" id="Navigation_Bar_Div"> 
+        <nav class="navbar navbar-expand-md"> 
+            <!--.navbar-expand{-sm|-md|-lg|-xl} syntax makes the navigation bar automatically responsive to the width of the page with collapsing and color scheme classes, 
+            and we can choose it's size (-sm, -md, -lg, -xl stand for small, medium, large and extra large). quoted from bootstrap website. For more information: 
+            1. https://getbootstrap.com/docs/4.3/components/navbar/                              
+            2. https://getbootstrap.com/docs/4.3/components/navbar/#color-schemes
+            We also used this syntax in class 12 of HTML by making an example for a basic website-->
+            <ul class="navbar-nav"> 
+                <!--Note: Navbars come with built-in support for a handful of sub-components. .navbar-nav for a full-height and lightweight navigation 
+                (including support for dropdowns). quoted from bootstrap website. For more information: https://getbootstrap.com/docs/4.3/components/navbar/ -->
+                <div class="mr-3">
+                    <li class="nav-item">
+                        <!--Bootstrap bi-Music svg:-->
+                        <svg class="bi bi-music-note-beamed Home_Nav_Elements Home_Nav_SVG_and_Lable" id="SVG_Nav" viewBox="0 0 16 16" fill="currentColor" 
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 
+                                     2.5 2z"/>
+                            <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+                            <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+                        </svg>
+                        <a href="Home_Page.html">
+                            <label class="Home_Nav_Elements Home_Nav_SVG_and_Lable">Music Gens</label>
+                        </a>
+                    </li>
+                </div>
+                <div class="mr-3">
+                    <li class="nav-item">
+                        <a href="Articles_Page.html">
+                            <button class="Home_Nav_Elements btn btn-secondary">Music Articles</button>
+                        </a>
+                    </li>
+                </div>
+                <div class="mr-3">
+                    <li class="nav-item">
+                        <a href="Shop_Page.html">
+                            <button class="Home_Nav_Elements btn btn-secondary">Music Shop</button>
+                        </a>
+                    </li>
+                </div>
+                <div class="mr-3 Home_Login_and_Register_Buttons">
+                    <li class="nav-item">
+                        <a href="Login_Page.html">
+                            <button class="Home_Nav_Elements btn btn-secondary">Sign In</button>
+                        </a>
+                    </li>
+                </div>
+                <div class="mr-3 Home_Login_and_Register_Buttons" id="Home_Register_Button">
+                    <li class="nav-item">
+                        <a href="Register_Page.html">
+                            <button class="Home_Nav_Elements btn btn-secondary">Sign Up</button>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="container jumbotron" id="Header_Div">
+        <h1>Music Geners</h1>
+        <hr class="bg-dark"/>
+        <p>Music is an art form, and cultural activity, whose medium is sound. General definitions of music include common elements such as pitch (which governs melody and 
+           harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture 
+           (which are sometimes termed the "color" of a musical sound). Different styles or types of music may emphasize, de-emphasize or omit some of these elements. 
+           Music is performed with a vast range of instruments and vocal techniques ranging from singing to rapping; there are solely instrumental pieces, solely vocal pieces 
+           (such as songs without instrumental accompaniment) and pieces that combine singing and instruments.
+           In its most general form, the activities describing music as an art form or cultural activity include the creation of works of music 
+           (songs, tunes, symphonies, and so on), the criticism of music, the study of the history of music, and the aesthetic examination of music. 
+           Ancient Greek and Indian philosophers defined music in two parts: melodies, as tones ordered horizontally, and harmonies as tones ordered vertically. 
+           Common sayings such as "the harmony of the spheres" and "it is music to my ears" point to the notion that music is often ordered and pleasant to listen to. 
+           However, 20th-century composer John Cage thought that any sound can be music, saying, for example, "There is no noise, only sound". 
+           Today there are a lot of music geners. Every Gener was developed over the years. This cite's purpose is exploring the different geners of music, 
+           providing interesting information of them and examine their special properties and instruments.</p>
+    </div>
+    <div class="container-fluid bg-dark" id="Footer_Div">
+        <footer class="text-light">
+            <small>– Copyright @2020 Writer: Ariel Kimchi, a student who learns for practical software-cyber degree </small>
+            <!--Every svg is taken from https://www.flaticon.com-->
+            <!--spotify svg:-->            
+            <svg id="spot" class="foot_svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" fill="#4caf50" r="12"/>
+                <g fill="#212121">
+                    <path d="m16.872 17.656v.001c-.203 0-.329-.063-.518-.174-3.019-1.82-6.532-1.896-10.002-1.185-.189.049-.436.126-.576.126-.47 0-.765-.373-.765-.765 0-
+                     .499.295-.736.659-.813 3.963-.875 8.013-.798 11.467 1.268.295.189.47.358.47.798 0 .438-.344.744-.735.744z"/><path d="m18.175 14.483h-.001c-.252 0-.421-
+                      .111-.596-.203-3.025-1.79-7.533-2.512-11.545-1.423-.232.063-.358.126-.576.126-.518 0-.938-.421-.938-.938s.252-.861.75-1.001c1.345-.378 2.719-.659 4.732-
+                       .659 3.14 0 6.174.779 8.565 2.202.392.232.547.533.547.953-.005.521-.411.943-.938.943z"/><path d="m4.548 6.998c1.703-.499 3.61-.735 5.686-.735 3.532 0 
+                        7.234.735 9.939 2.313.378.218.624.518.624 1.093 0 .658-.533 1.127-1.122 1.127l-.001-.001c-.252 0-.407-.063-.625-.189-3.444-2.056-9.605-2.549-13.591-
+                        1.436-.175.048-.393.125-.625.125-.639 0-1.127-.499-1.127-1.142 0-.657.407-1.029.842-1.155z"/>
+                </g>
+            </svg> 
+            <!--youtube svg:--> 
+            <svg class="foot_svg" viewBox="0 -77 512.00213 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 
+                 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 
+                 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 
+                 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-
+                 10.546875-123.570312zm0 0" fill="#f00"/>
+                <path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"/>
+            </svg> 
+            <!--facebook svg:--> 
+            <svg class="foot_svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="m483.738281 0h-455.5c-15.597656.0078125-28.24218725 12.660156-28.238281 28.261719v455.5c.0078125 15.597656 12.660156 28.242187 28.261719 
+                 28.238281h455.476562c15.605469.003906 28.257813-12.644531 28.261719-28.25 0-.003906 0-.007812 0-.011719v-455.5c-.007812-15.597656-12.660156-28.24218725-
+                  28.261719-28.238281zm0 0" fill="#4267b2"/><path d="m353.5 512v-198h66.75l10-77.5h-76.75v-49.359375c0-22.386719 6.214844-37.640625 38.316406-37.640625h40.
+                   683594v-69.128906c-7.078125-.941406-31.363281-3.046875-59.621094-3.046875-59 0-99.378906 36-99.378906 102.140625v57.035156h-66.5v77.5h66.5v198zm0 0" 
+                   fill="#fff"/>
+            </svg> 
+            <!--instagram svg:--> 
+            <svg class="foot_svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <linearGradient id="SVGID_1_" gradientTransform="matrix(0 -1.982 -1.844 0 -132.522 -51.077)" gradientUnits="userSpaceOnUse" x1="-37.106" x2="-26.555" 
+                 y1="-72.705" y2="-84.047"><stop offset="0" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/>
+                </linearGradient><path d="m1.5 1.633c-1.886 1.959-1.5 4.04-1.5 10.362 0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 
+                 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091-.559-.081-.671-.105-3.539-.11-10.173.005-12.403-.448-14.41 1.633z" 
+                 fill="url(#SVGID_1_)"/>
+                <path d="m11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 
+                 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 
+                 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471c-.587 0-1.063.476-1.063 1.063s.476 1.063 
+                 1.063 1.063 1.063-.476 1.063-1.063-.476-1.063-1.063-1.063zm-4.73 1.243c-2.513 0-4.55 2.038-4.55 4.551s2.037 4.55 4.55 4.55 4.549-2.037 4.549-4.55-2.036-4.551-
+                 4.549-4.551zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z" fill="#fff"/>
+            </svg>
+        </footer>
+    </div>
+</body>
+</html>

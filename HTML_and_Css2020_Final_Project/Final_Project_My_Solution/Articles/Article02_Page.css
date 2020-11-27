@@ -1,0 +1,40 @@
+body
+{
+  background-image: linear-gradient(to right, #1a1516, #edefe1, #66212b, #faf2d8, #cb7259);
+}
+#Header_Div
+{
+  height: 300px;
+  background-color: aqua;
+}
+#Images_Div
+{
+  margin-bottom: 35px;
+  background-color: saddlebrown;
+}
+img
+{
+  width: 200px;
+  height: 200px;
+  margin-left: 125px;
+}
+#Video_and_Table_Div
+{
+  margin-bottom: 35px;
+  background-color: burlywood;
+  padding-bottom: 5px;
+}
+iframe
+{
+  margin-left: 250px;
+  width: 600px;
+  height: 300px;
+}
+.special_content
+{
+  margin-top: 25px;
+}
+#Content_Div
+{
+  background-color: teal;
+}

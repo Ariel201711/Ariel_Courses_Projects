@@ -1,0 +1,62 @@
+body
+{
+  background-color: rgba(160, 160, 1, 0.658);     
+}
+.Home_Nav_Elements
+{
+   margin-left:5px;  
+}
+.Home_Nav_SVG_and_Lable
+{
+   color: white !important;
+}
+#SVG_Nav
+{
+   margin-top:2px;
+   /* em is one of the relative length units in css,
+   relative to the font-size of the element 
+   (2em means 2 times the size of the current font)
+   taken from w3schools site. For more information: 
+   https://www.w3schools.com/cssref/css_units.asp */
+   height:2em;
+   width:2em;
+}
+label
+{
+   cursor: pointer;
+   margin-top:7px;
+} 
+.Home_Login_and_Register_Buttons
+{
+   margin-left: 668px;
+}    
+#Home_Register_Button
+{
+   margin-left:3px;
+}
+#Header_Div
+{
+    margin-top: 20px;
+    text-align: center;
+    background-image: url(http://getwallpapers.com/wallpaper/full/9/2/9/1116255-download-music-notes-background-1920x1080-for-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    float: left;
+}
+.foot_svg
+{
+   margin-left: 5px;
+   margin-bottom: 2px;
+   height: 20px;
+   width: 20px;
+}
+#spot
+{
+   margin-left: 636px; 
+}
+#Footer_Div
+{
+    height: 25px;
+}

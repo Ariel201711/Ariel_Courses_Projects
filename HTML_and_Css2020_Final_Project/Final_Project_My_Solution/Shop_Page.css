@@ -1,0 +1,36 @@
+#Header_Div
+{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  position:relative;
+}
+p{
+  margin-top: 15px;
+}
+#Items_Div
+{
+  margin-left: 120px;
+}
+#Row1_Div
+{
+  position: relative;
+  margin-bottom: 50px;
+}
+img
+{
+  height: 125px;
+  width: 125px;
+  margin-left: 20px;
+}
+h6
+{
+  margin-top: 5px;
+}
+#btns_Div
+{
+  margin-top: 20px;
+}
+.btn_Div
+{
+  margin-left: 5px;
+}

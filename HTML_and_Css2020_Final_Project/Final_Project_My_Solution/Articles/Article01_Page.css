@@ -1,0 +1,35 @@
+body
+{
+  background-color: thistle;
+}
+#Header_Div
+{
+  height: 300px;
+}
+#Images_Div
+{
+  margin-bottom: 35px;
+  background-color: pink;
+}
+img
+{
+  width: 200px;
+  height: 200px;
+  margin-left: 125px;
+}
+#Video_and_Table_Div
+{
+  margin-bottom: 35px;
+  background-color: pink;
+  padding-bottom: 5px;
+}
+iframe
+{
+  margin-left: 250px;
+  width: 600px;
+  height: 300px;
+}
+.special_content
+{
+  margin-top: 25px;
+}

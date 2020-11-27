@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Español Quiz - The Game</title>
+        <!-- CSS only from bootstrap -->
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="design_pages.css">
+        <script src="db+functionality.js"></script>
+    </head>
+    <body id="gamePageBody" class="text-light">
+        <div class="container" id="gamePageTop">
+            <div>
+                <button class="btn btn-primary gamePageCategories" id = "Musical Instruments" onclick="setCategory(id)">Musical Instruments</button>
+                <button class="btn btn-primary gamePageCategories" id = "Animals" onclick="setCategory(id)">Animals</button>
+                <button class="btn btn-primary gamePageCategories" id = "Drinks" onclick="setCategory(id)">Drinks</button>
+                <button class="btn btn-primary gamePageCategories" id = "Plants" onclick="setCategory(id)">Plants</button>
+                <button class="btn btn-primary gamePageCategories" id = "Clothes" onclick="setCategory(id)">Clothes</button>
+            </div>
+        </div>
+        <div class="container" id="gamePageChooseMessage">
+            <div>
+                <h4 id="theMessageLine01">Please Choose a Category from above</h4>
+                <h4 id="theMessageLine02" class="nextLines"></h4>
+                <h4 id="theMessageLine03" class="nextLines"></h4>
+                <h4 id="theMessageLine04" class="nextLines"></h4>
+            </div>
+        </div>
+        <div class="container text-center gameDisplay" id = "gamePageMiddleDiv">
+            <div>
+                <h5 id="gamePageScoreText" class="gamePageMiddleObjects">score: <span id = "gamePageScorePoints"></span></h5>
+                <h2 class="gamePageMiddleObjects" id="word">cat</h2>
+                <br/>
+                <br/>
+                <button class="btn btn-primary gamePageMiddleObjects" id = "previous" onclick="runGame(id)">previous</button>
+                <img src="" class="gamePageMiddleObjects" id="img"/>
+                <button class="btn btn-primary gamePageMiddleObjects" id="next" onclick="runGame(id)">next</button>
+                <br/>
+                <br/>
+                <button class="btn btn-primary gamePageMiddleObjects" id="option1" onclick="runGame(id)"></button>
+                <button class="btn btn-primary gamePageMiddleObjects" id="option2" onclick="runGame(id)"></button>
+                <button class="btn btn-primary gamePageMiddleObjects" id="option3" onclick="runGame(id)"></button>
+            </div>
+        </div>
+        <br/>
+        <div class="container text-center gameDisplay" id="gamePageBottom">
+            <div>
+                <h3 id="isAnswerCorrect"></h3>
+                <!--These Svgs are from flaticon Site: (V for correct answer and X for incorrect one)-->
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.999 511.999" xml:space="preserve" id="correctAnswerSvg" class="checkingAnswerSvgs">
+                    <path d="M502.87,75.474c-12.201-12.204-31.952-12.205-44.154-0.001L163.89,370.299L53.284,259.693
+                    c-12.201-12.204-31.952-12.205-44.154-0.001c-12.173,12.174-12.173,31.981,0,44.153L141.814,436.53
+                    c12.199,12.198,31.953,12.2,44.153,0L502.87,119.626C515.042,107.453,515.042,87.645,502.87,75.474z" class="pathsCorrectAnswer"/>
+                    <path d="M502.87,75.474c-12.201-12.204-31.952-12.205-44.154-0.001L243.511,290.678v88.306L502.87,119.626
+                    C515.042,107.453,515.042,87.645,502.87,75.474z" class="pathsCorrectAnswer"/>                    
+                </svg>
+                <svg  viewBox="0 0 365.71733 365" xmlns="http://www.w3.org/2000/svg" id="incorrectAnswerSvg" class="checkingAnswerSvgs">
+                    <g>
+                        <path d="m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0"/>
+                        <path d="m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </body>
+</html>

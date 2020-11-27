@@ -1,0 +1,19 @@
+body
+{
+    background-color:cornflowerblue;
+}
+#Header_Div
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color:white;
+}
+a
+{
+  color:white !important;
+}
+img
+{
+  height: 100px;
+  width: 200px;
+}

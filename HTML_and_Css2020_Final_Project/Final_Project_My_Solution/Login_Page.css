@@ -1,0 +1,21 @@
+body
+{
+  background-image: url(https://i.ytimg.com/vi/0P11UO54ASI/maxresdefault.jpg);
+  background-size: cover;
+}
+#Form_Div
+{
+  margin-top: 150px;
+  background-color: white;
+  width: 300px;
+}
+.check_input
+{
+  margin-top: 10px;
+}
+button
+{
+  background-image: linear-gradient(to top, cyan, blue);
+  margin-left: 110px;
+  margin-bottom: 10px;
+}

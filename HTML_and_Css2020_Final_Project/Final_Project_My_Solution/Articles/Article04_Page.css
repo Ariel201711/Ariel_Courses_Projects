@@ -1,0 +1,40 @@
+body
+{
+  background-image: linear-gradient(to left,rgb(255,212,196), rgb(255,140,145), rgb(254,168,145),      rgb(255,228,149), rgb(169,200,244));
+}
+#Header_Div
+{
+  height: 300px;
+  background-image: linear-gradient(to right,yellow,white,blue);
+}
+#Images_Div
+{
+  margin-bottom: 35px;
+  background-color: purple;
+}
+img
+{
+  width: 200px;
+  height: 200px;
+  margin-left: 125px;
+}
+#Video_and_Table_Div
+{
+  margin-bottom: 35px;
+  background-image: linear-gradient(to right bottom, blue,black,blue);
+  padding-bottom: 5px;
+}
+iframe
+{
+  margin-left: 250px;
+  width: 600px;
+  height: 300px;
+}
+.special_content
+{
+  margin-top: 25px;
+}
+#Content_Div
+{
+  background-color: goldenrod;
+}

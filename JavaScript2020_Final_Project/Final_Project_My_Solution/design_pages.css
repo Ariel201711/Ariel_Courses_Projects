@@ -1,0 +1,96 @@
+#homePageBody {
+    background-image: linear-gradient(to right,#4B2383,#280C49,#A37930,#DCB477,white);
+}
+
+#homePageDiv {
+    margin-top: 225px;
+    color:white;
+}
+
+#gamePageBody {
+    background-image: url("https://arzotravels.com/wp-content/uploads/2017/11/Spain-places-to-visit-Panoramic-aerial-view-of-San-Sebastian-Donostia-in-a-beautiful-summer-day-Spain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gamePageTop {
+    margin-top: 10px; 
+}
+
+#gamePageScoreText {
+    margin-right: 1010px;
+    margin-top: 20px;
+}
+
+.gamePageCategories {
+    margin-left: 10px;
+}
+
+h4 {
+    margin-left: 300px;
+}
+
+#theMessageLine01 {
+    margin-top: 280px;
+} 
+
+.nextLines {
+    margin-top: 10px;
+} 
+
+#gamePageMiddleDiv {
+    position: absolute;
+    margin-left: 90px;
+}
+.gamePageMiddleObjects {
+    margin-right: 50px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#gamePageBottom {
+    margin-left: 90px;
+    margin-top: 490px;
+}
+
+#correctAnswerSvg {
+    height: 60px;
+    width: 60px;
+    enable-background: new 0 0 511.999 511.999; 
+    /* 
+    enable-background -> Deprecated. Use 'isolation' property instead when support allows. Specifies how the accumulation of the background image is managed.
+    */
+}
+
+#incorrectAnswerSvg {
+    height: 50px;
+    width: 50px; 
+}
+
+.checkingAnswerSvgs {
+    margin-left: 10px;
+}
+
+.pathsCorrectAnswer {
+    /*
+    This is a class of paths elements from the correctAnswer SVG.
+    The <path> element is the most powerful element in the SVG library of basic shapes. It can be used to create lines, curves, arcs, and more.
+    taken from: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+     */
+    fill:#33FF36; /* Paints the interior of the given graphical element. */
+}
+
+g {
+    /*
+    The <g> SVG element is a container used to group other SVG elements.
+    Transformations applied to the <g> element are performed on its child elements, and its attributes are inherited by its children. It can also group multiple elements to be referenced later with the <use> element. 
+    taken from: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g
+    */
+    fill:#FF3333; /* Paints the interior of the given graphical element. */
+}
+
+.gameDisplay {
+    display: none;
+}
