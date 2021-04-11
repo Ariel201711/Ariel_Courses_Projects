@@ -1,0 +1,8 @@
+com/example/itemrecog/ml/MobilenetV110224Quant.java
+ com.example.itemrecog.ml.MobilenetV110224Quant
+ com.example.itemrecog.ml.MobilenetV110224Quant$1
+ com.example.itemrecog.ml.MobilenetV110224Quant$Outputs
+com/example/itemrecog/BuildConfig.java
+ com.example.itemrecog.BuildConfig
+com/example/itemrecog/MainActivity.java
+ com.example.itemrecog.MainActivity
